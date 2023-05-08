@@ -12,7 +12,7 @@ cd lux
 # make shell files runnable
 chmod u+x start.sh && chmod u+x add-to-cron.sh
 # add to crontab
-./add-to-cron.sh "@reboot sleep 20; /home/pi/lux/start.sh;"
+./add-to-cron.sh "@reboot sleep 20; $(pwd)/start.sh;"
 # run the program
 ./start.sh
 ```
