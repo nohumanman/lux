@@ -6,7 +6,7 @@ This repository contains a program designed to have aesthetic light animations f
 
 ```
 # clone the repo
-git clone https://github.com/nohumanman/lux/edit/main/README.md
+git clone https://github.com/nohumanman/lux
 # cd into the repo
 cd lux
 # make shell files runnable
