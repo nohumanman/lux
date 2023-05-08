@@ -11,8 +11,8 @@ git clone https://github.com/nohumanman/lux/edit/main/README.md
 cd lux
 # make shell files runnable
 chmod u+x start.sh && chmod u+x add-to-cron.sh
+# add to crontab
+./add-to-cron.sh "@reboot sleep 20; /home/pi/lux/start.sh;"
 # run the program
 ./start.sh
-# OR add to crontab
-./add-to-cron.sh "@reboot sleep 20; /home/pi/lux/start.sh;"
 ```
